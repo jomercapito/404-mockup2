@@ -1,0 +1,12 @@
+@import "tailwindcss";
+:root {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
