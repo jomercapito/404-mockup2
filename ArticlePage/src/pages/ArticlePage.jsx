@@ -3,7 +3,7 @@ import Footer from "../sections/Footer";
 function ArticlePage() {
   return (
     <>
-      // TODO: Navbar, Hero Section, Article Section
+      {/* // TODO: Navbar, Hero Section, Article Section */}
       <Footer />
     </>
   );
