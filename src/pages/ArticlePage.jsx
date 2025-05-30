@@ -1,12 +1,12 @@
 import InterviewPage from "../sections/Hero";
 import Footer from "../sections/Footer";
-import HeroContent from "../sections/HeroContent";
+import Navbar from "../sections/navbar";
 
 function ArticlePage() {
   return (
     <>
+      <Navbar />
       <InterviewPage />
-      <HeroContent />
       <Footer />
     </>
   );
