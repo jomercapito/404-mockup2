@@ -1,9 +1,12 @@
+import InterviewPage from "../sections/Hero";
 import Footer from "../sections/Footer";
+import Navbar from "../sections/navbar";
 
 function ArticlePage() {
   return (
     <>
-      {/* // TODO: Navbar, Hero Section, Article Section */}
+      <Navbar />
+      <InterviewPage />
       <Footer />
     </>
   );
