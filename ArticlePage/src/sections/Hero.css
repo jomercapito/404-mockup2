@@ -1,0 +1,61 @@
+.interview-page {
+  background-color: #000;
+  color: white;
+  min-height: 100vh;
+}
+
+.hero {
+  background-image: url("../assets/images/banners/hero-banner.svg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  padding: 4rem;
+  color: white;
+  font-family: sans-serif;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, #000000 0%, rgba(21, 21, 21, 0.24) 100%);
+}
+
+.hero-content {
+  position: relative;
+  margin: left;
+  padding: 2rem;
+  color: white;
+  background: transparent;
+}
+
+.hero-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1.5px;
+}
+
+.hero-description {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 16px 0px 16px 0px;
+  max-width: 486px;
+}
+
+.read-more {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 183px;
+  height: 48px;
+  top: 492px;
+  left: 120px;
+  border-radius: 100px;
+  background: linear-gradient(98.1deg, #c22026 -5.05%, #c400cb 101.49%);
+}

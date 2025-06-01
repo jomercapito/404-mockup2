@@ -1,0 +1,64 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.menu-user-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: black;
+  border-radius: 18px;
+  padding: 8px 12px;
+  width: 80;
+  height: 40;
+  top: 24px;
+  left: 1328px;
+}
+
+.menu-user-button .icon {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.event-card {
+  display: flex;
+  margin-left: 1550px;
+  background: transparent;
+  padding: 0.5rem 1rem;
+  color: white;
+  width: fit-content;
+}
+
+.event-icon {
+  width: 25px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.event-label {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
