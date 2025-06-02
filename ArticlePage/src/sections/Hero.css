@@ -14,7 +14,6 @@
   align-items: flex-end;
   padding: 4rem;
   color: white;
-  font-family: sans-serif;
 }
 
 .hero-overlay {
@@ -32,14 +31,12 @@
 }
 
 .hero-title {
-  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 40px;
   letter-spacing: 1.5px;
 }
 
 .hero-description {
-  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.8;
@@ -48,7 +45,6 @@
 }
 
 .read-more {
-  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   letter-spacing: 0%;
   text-align: center;

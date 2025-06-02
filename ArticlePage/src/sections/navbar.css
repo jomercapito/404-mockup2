@@ -1,27 +1,37 @@
-/* Reset some default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Arial", sans-serif;
-}
-
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 50px;
-  background-color: transparent;
-  position: fixed;
-  width: 100%;
+  position: absolute;
   top: 0;
   left: 0;
-  z-index: 100;
-  transition: all 0.3s ease;
+  width: 100%;
+  background-color: transparent;
+  z-index: 10;
+  padding: 20px;
+}
+.navbar ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+}
+.navbar li {
+  height: 100%;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
 }
 
-.logo img {
-  height: 40px;
+.navbar li:first-child {
+  margin-right: auto;
+}
+
+.event-icon {
+  padding: 10px;
+}
+
+.event-label {
+  color: white;
+  padding: 10px;
 }
 
 .menu-user-button {
@@ -29,36 +39,10 @@
   align-items: center;
   gap: 8px;
   background-color: black;
-  border-radius: 18px;
-  padding: 8px 12px;
-  width: 80;
-  height: 40;
-  top: 24px;
-  left: 1328px;
+  border-radius: 22px;
 }
-
 .menu-user-button .icon {
   width: 20px;
   height: 20px;
   color: white;
-}
-
-.event-card {
-  display: flex;
-  margin-left: 1550px;
-  background: transparent;
-  padding: 0.5rem 1rem;
-  color: white;
-  width: fit-content;
-}
-
-.event-icon {
-  width: 25px;
-  height: 20px;
-  margin-right: 10px;
-}
-
-.event-label {
-  font-size: 1.125rem;
-  font-weight: 500;
 }
