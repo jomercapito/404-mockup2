@@ -5,18 +5,18 @@
   width: 100%;
   background-color: transparent;
   z-index: 10;
-  padding: 20px;
+  padding: 19px;
 }
 .navbar ul {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 50px;
+  height: 48px;
 }
 .navbar li {
-  height: 100%;
-  padding: 5px 15px;
+  height: 80%;
+  padding: 5px 19.5px;
   display: flex;
   align-items: center;
 }
@@ -26,7 +26,7 @@
 }
 
 .event-icon {
-  padding: 10px;
+  padding: 5px;
 }
 
 .event-label {
