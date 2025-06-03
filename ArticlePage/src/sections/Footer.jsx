@@ -4,26 +4,26 @@ import footerLogo from "../assets/images/footer/footer-logo.svg";
 
 export default function Footer() {
   return (
-    <footer className="border-t bg-black text-white pt-12 pb-16">
+    <footer className="border-t border-neutral-900 bg-black text-white pt-12 pb-10">
       <div className="max-w-screen-xl mx-auto flex flex-wrap justify-between gap-8 px-8 md:px-0">
-        <div className="w-full ml-12 md:w-[8%]">
+        <div className="w-full md:ml-10 md:w-[8%]">
           <img src={footerLogo} alt="Red Curtain Addict" />
         </div>
 
-        <div className="w-full md:w-[10%] space-y-4 text-sm">
+        <div className="w-full md:w-[10%] space-y-6 text-sm">
           <p className="hover:underline cursor-pointer">Events</p>
           <p className="hover:underline cursor-pointer">News</p>
           <p className="hover:underline cursor-pointer">Episodes</p>
         </div>
 
-        <div className="w-full md:w-[20%] space-y-4 text-sm">
+        <div className="w-full md:w-[20%] space-y-6 text-sm">
           <p className="hover:underline cursor-pointer">For professionals</p>
           <p className="hover:underline cursor-pointer">About us</p>
           <p className="hover:underline cursor-pointer">Contact us</p>
           <p className="hover:underline cursor-pointer">Terms & conditions</p>
         </div>
 
-        <div className="w-full md:w-[40%] space-y-4 mr-8 text-sm">
+        <div className="w-full md:w-[40%] space-y-6 mr-8 text-sm">
           <p className="w-[70%]">
             Follow us on social media and join our growing community of
             performing arts enthusiasts.
@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="max-w-screen-xl ml-32 mt-12 text-sm text-neutral-400 text-left px-8 md:px-0">
+      <div className="max-w-screen-xl ml-0 md:ml-12 xl:ml-32 2xl:ml-48 mt-12 text-sm text-neutral-200 text-left px-8 md:px-0">
         © Red Curtain Addict 2021
       </div>
     </footer>
