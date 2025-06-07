@@ -1,5 +1,5 @@
 import "./Hero.css";
-import Ellipse from "../assets/images/logos/Ellipse.svg";
+import authorProfile from "../assets/images/banners/author-profile.svg";
 
 const categories = ["Theater", "Musical", "Comedy"];
 
@@ -19,7 +19,11 @@ export default function Individual() {
       </header>
       <div className="author-card">
         <div className="author-left">
-          <img src={Ellipse} alt="James Johnson" className="author-avatar" />
+          <img
+            src={authorProfile}
+            alt="James Johnson"
+            className="author-avatar"
+          />
           <div>
             <p className="author-name">James Johnson</p>
             <p className="author-title">Editor at Red Curtain Addict</p>
