@@ -9,10 +9,11 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 100vh;
+  height: 500px;
+  width: 100%;
   display: flex;
   align-items: flex-end;
-  padding: 4rem;
+  padding: 25px 100px;
   color: white;
 }
 
@@ -54,4 +55,78 @@
   left: 120px;
   border-radius: 100px;
   background: linear-gradient(98.1deg, #c22026 -5.05%, #c400cb 101.49%);
+}
+
+/* Individual page css */
+
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.button-categories {
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 1px solid #c22026;
+  backdrop-filter: blur(8px);
+  border-width: 1px;
+  padding: 10px 25px;
+  margin: 5px;
+}
+
+.author-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 25px 100px;
+  border-radius: 0.5rem;
+}
+
+.author-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.author-avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+.author-name {
+  font-weight: 600;
+}
+
+.author-title {
+  font-size: 0.875rem;
+  color: #a1a1aa; /* gray-400 */
+}
+
+.follow-button {
+  margin-left: 1rem;
+  background-color: #dc2626; /* red-600 */
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.follow-button:hover {
+  background-color: #b91c1c; /* red-700 */
+}
+
+.author-right {
+  text-align: right;
+  font-size: 0.875rem;
+  color: #a1a1aa; /* gray-400 */
 }
