@@ -1,53 +1,50 @@
 import React from "react";
 import { FaInstagram, FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
+import footerLogo from "../assets/images/footer/footer-logo.svg";
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white pt-12 pb-6 px-8 md:px-20">
-      <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 items-start">
-        <div className="flex flex-col">
-          <h1 className="text-xl font-light leading-tight">
-            <span className="block text-sm">Red</span>
-            <span className="block text-sm">Curtain</span>
-            <span className="block text-lg italic font-signature">Addict</span>
-          </h1>
+    <footer className="border-t border-neutral-900 bg-black text-white pt-12 pb-10">
+      <div className="max-w-screen-xl mx-auto flex flex-wrap justify-between gap-8 px-8 md:px-0">
+        <div className="w-full md:ml-10 md:w-[8%]">
+          <img src={footerLogo} alt="Red Curtain Addict" />
         </div>
 
-        <div className="space-y-3 pl-4">
+        <div className="w-full md:w-[10%] space-y-6 text-sm">
           <p className="hover:underline cursor-pointer">Events</p>
           <p className="hover:underline cursor-pointer">News</p>
           <p className="hover:underline cursor-pointer">Episodes</p>
         </div>
 
-        <div className="space-y-3 pl-4">
+        <div className="w-full md:w-[20%] space-y-6 text-sm">
           <p className="hover:underline cursor-pointer">For professionals</p>
           <p className="hover:underline cursor-pointer">About us</p>
           <p className="hover:underline cursor-pointer">Contact us</p>
           <p className="hover:underline cursor-pointer">Terms & conditions</p>
         </div>
 
-        <div className="space-y-5">
-          <p>
+        <div className="w-full md:w-[40%] space-y-6 mr-8 text-sm">
+          <p className="w-[70%]">
             Follow us on social media and join our growing community of
             performing arts enthusiasts.
           </p>
-          <div className="flex space-x-5">
+          <div className="flex space-x-4">
             <a href="#" className="bg-neutral-800 p-4 rounded-full">
               <FaInstagram className="text-white text-xl" />
             </a>
             <a href="#" className="bg-neutral-800 p-4 rounded-full">
-              <FaFacebookF className="text-white text-xl" />
+              <FaFacebookF className="text-white text-xl fill-transparent stroke-white stroke-40" />
             </a>
             <a href="#" className="bg-neutral-800 p-4 rounded-full">
-              <FaTwitter className="text-white text-xl" />
+              <FaTwitter className="text-white text-xl fill-transparent stroke-white stroke-40" />
             </a>
             <a href="#" className="bg-neutral-800 p-4 rounded-full">
-              <FaYoutube className="text-white text-xl" />
+              <FaYoutube className="text-white text-xl fill-transparent stroke-white stroke-40" />
             </a>
           </div>
         </div>
       </div>
-      <div className="border-t border-neutral-800 mt-12 pt-4 text-sm text-neutral-400 text-left px-8 md:px-20">
+      <div className="max-w-screen-xl ml-0 md:ml-12 xl:ml-32 2xl:ml-48 mt-12 text-sm text-neutral-200 text-left px-8 md:px-0">
         © Red Curtain Addict 2021
       </div>
     </footer>

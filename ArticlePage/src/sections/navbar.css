@@ -1,0 +1,48 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 10;
+  padding: 19px;
+}
+.navbar ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 48px;
+}
+.navbar li {
+  height: 80%;
+  padding: 5px 19.5px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar li:first-child {
+  margin-right: auto;
+}
+
+.event-icon {
+  padding: 5px;
+}
+
+.event-label {
+  color: white;
+  padding: 10px;
+}
+
+.menu-user-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: black;
+  border-radius: 22px;
+}
+.menu-user-button .icon {
+  width: 20px;
+  height: 20px;
+  color: white;
+}

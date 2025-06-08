@@ -1,0 +1,118 @@
+{
+  "articles": [
+    {
+      "articleID": 1,
+      "articleTitle": "Interview with the Ant",
+      "publishDate": "04/20/25",
+      "articleTags": ["Ant Musical", "Ant Theater", "Ant Comedy"],
+      "author": {
+        "name": "James Johnson",
+        "role": "Ant at Red Curtain Addict",
+        "profileImage": "./assets/images/banners/author-profile.svg"
+      },
+      "articleHeading": "1-on-1 interview with the legendary Ant and an inside look at their journey through out the years.",
+      "articleDetail": "Ant Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "articleSecondTitle": "This is the Ant",
+      "articleSecondDetail": [
+        "Ant At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.",
+        "Ant At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio."
+      ],
+      "articleImage": "./assets/images/banners/broadway-banner-1.svg"
+    },
+    {
+      "articleID": 2,
+      "articleTitle": "Interview with the Rodent",
+      "publishDate": "04/22/2024",
+      "articleTags": ["Rod Musical", "Rod Theater", "Rod Comedy"],
+      "author": {
+        "name": "James Johnson",
+        "role": "Rodent at Red Curtain Addict",
+        "profileImage": "./assets/images/banners/author-profile.svg"
+      },
+      "articleHeading": "1-on-1 interview with the legendary Rodent and an inside look at their journey through out the years.",
+      "articleDetail": "Rodent Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "articleSecondTitle": "This is the Rodent",
+      "articleSecondDetail": [
+        "Rodent At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.",
+        "Rodent At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio."
+      ],
+      "articleImage": "./assets/images/banners/broadway-banner-2.svg"
+    },
+    {
+      "articleID": 3,
+      "articleTitle": "Interview with the Beatles",
+      "publishDate": "04/24/2023",
+      "articleTags": ["Musical", "Theater", "Comedy"],
+      "author": {
+        "name": "James Johnson",
+        "role": "Editor at Red Curtain Addict",
+        "profileImage": "./assets/images/banners/author-profile.svg"
+      },
+      "articleHeading": "1-on-1 interview with the legendary Beatles and an inside look at their journey through out the years.",
+      "articleDetail": "Beatles Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "articleSecondTitle": "This is the Beatles",
+      "articleSecondDetail": [
+        "Beatles At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.",
+        "Beatles At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio."
+      ],
+      "articleImage": "./assets/images/banners/musicals-banner-1.svg"
+    },
+    {
+      "articleID": 4,
+      "articleTitle": "Interview with the Wasp",
+      "publishDate": "04/26/2022",
+      "articleTags": ["Wasp Musical", "Wasp Theater", "Wasp Comedy"],
+      "author": {
+        "name": "James Johnson",
+        "role": "Wasp at Red Curtain Addict",
+        "profileImage": "./assets/images/banners/author-profile.svg"
+      },
+      "articleHeading": "1-on-1 interview with the legendary Wasp and an inside look at their journey through out the years.",
+      "articleDetail": "Wasp Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "articleSecondTitle": "This is the Wasp",
+      "articleSecondDetail": [
+        "Wasp At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.",
+        "Wasp At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio."
+      ],
+      "articleImage": "./assets/images/banners/musicals-banner-2.svg"
+    },
+    {
+      "articleID": 5,
+      "articleTitle": "Interview with the Red Panda",
+      "publishDate": "04/28/2021",
+      "articleTags": ["Musical", "Theater", "Comedy"],
+      "author": {
+        "name": "James Johnson",
+        "role": "R.Panda at Red Curtain Addict",
+        "profileImage": "./assets/images/banners/author-profile.svg"
+      },
+      "articleHeading": "1-on-1 interview with the legendary Red Panda and an inside look at their journey through out the years.",
+      "articleDetail": "Red Panda Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "articleSecondTitle": "This is the Red Panda",
+      "articleSecondDetail": [
+        "Red Panda At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.",
+        "Red Panda At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio."
+      ],
+      "articleImage": "./assets/images/banners/ballet-banner-1.svg"
+    },
+    {
+      "articleID": 6,
+      "articleTitle": "Interview with the Homo Sapiens",
+      "publishDate": "04/30/2020",
+      "articleTags": ["Musical", "Theater", "Comedy"],
+      "author": {
+        "name": "James Johnson",
+        "role": "Human at Red Curtain Addict",
+        "profileImage": "./assets/images/banners/author-profile.svg"
+      },
+      "articleHeading": "1-on-1 interview with the legendary Homo Sapiens and an inside look at their journey through out the years.",
+      "articleDetail": "Human Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "articleSecondTitle": "This is the Homo Sapiens",
+      "articleSecondDetail": [
+        "Human At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.",
+        "Human At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio."
+      ],
+      "articleImage": "./assets/images/banners/ballet-banner-2.svg"
+    }
+  ]
+}
